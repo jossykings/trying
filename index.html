@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>content gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <center>
+        <h1>Content Gallery Project</h1>
+      </center>
+      <div class="images">
+        <center>
+          <h2>images section</h2>
+        </center>
+        <div class="image-container">
+          <div class="img">
+            <img
+              src="./images/pexels-donald-tong-23475.jpg"
+              alt=""
+              width="300px"
+            />
+            <p>Title:Random Image</p>
+            <p>this is a sample image that........</p>
+            <button class="btn" id="viewmore1">view more</button>
+          </div>
+          <div class="img">
+            <img
+              src="./images/pexels-donald-tong-23474.jpg"
+              alt=""
+              width="300px"
+            />
+            <p>Title:Random Image</p>
+            <p>this is a sample image that........</p>
+            <button class="btn" id="viewmore2">view more</button>
+          </div>
+          <div class="img">
+            <img
+              src="./images/pexels-axel-vandenhirtz-929280.jpg"
+              alt=""
+              width="300px"
+            />
+            <p>Title:Random Image</p>
+            <p>this is a sample image that........</p>
+            <button class="btn" id="viewmore3">view more</button>
+          </div>
+        </div>
+        <div id="showmore">
+          <div class="img">
+            <img src="./images/pray.jpg" alt="" width="300px" />
+            <p>Title:Random Image</p>
+            <p>this is a sample image that........</p>
+            <button class="btn" id="viewmore4">view more</button>
+          </div>
+          <div class="img">
+            <img
+              src="./images/pexels-moose-photos-1037992.jpg"
+              alt=""
+              width="300px"
+            />
+            <p>Title:Random Image</p>
+            <p>this is a sample image that........</p>
+            <button class="btn" id="viewmore5">view more</button>
+          </div>
+          <div class="img">
+            <img
+              src="./images/pexels-valentin-antonucci-691640.jpg"
+              alt=""
+              width="300px"
+            />
+            <p>Title:Random Image</p>
+            <p>this is a sample image that........</p>
+            <button class="btn" id="viewmore6">view more</button>
+          </div>
+        </div>
+        <button class="btn" id="openOne">show more images</button>
+      </div>
+    </div>
+    <center>
+      <dialog class="modal" id="modalone">
+        <div class="active-img">
+          <img
+            src="./images/pexels-donald-tong-23475.jpg"
+            width="600px"
+            alt=""
+          />
+          <p>Title:Random Image</p>
+          <p>this is a sample image that shows a watch</p>
+          <button class="btn" id="closebtn1">close</button>
+        </div>
+      </dialog>
+    </center>
+    <center>
+      <dialog class="modal" id="modaltwo">
+        <div class="active-img">
+          <img
+            src="./images/pexels-donald-tong-23474.jpg"
+            width="600px"
+            alt=""
+          />
+          <p>Title:Random Image</p>
+          <p>this is a sample image that shows a watch</p>
+          <button class="btn" id="closebtn2">close</button>
+        </div>
+      </dialog>
+    </center>
+    <center>
+      <dialog class="modal" id="modalthree">
+        <div class="active-img">
+          <img
+            src="./images/pexels-axel-vandenhirtz-929280.jpg"
+            width="600px"
+            alt=""
+          />
+          <p>Title:Random Image</p>
+          <p>this is a sample image that shows a watch</p>
+          <button class="btn" id="closebtn3">close</button>
+        </div>
+      </dialog>
+    </center>
+    <center>
+      <dialog class="modal" id="modalfour">
+        <div class="active-img">
+          <img src="./images/pray.jpg" width="600px" alt="" />
+          <p>Title:Random Image</p>
+          <p>this is a sample image that shows a watch</p>
+          <button class="btn" id="closebtn4">close</button>
+        </div>
+      </dialog>
+    </center>
+    <center>
+      <dialog class="modal" id="modalfive">
+        <div class="active-img">
+          <img
+            src="./images/pexels-moose-photos-1037992.jpg"
+            width="600px"
+            alt=""
+          />
+          <p>Title:Random Image</p>
+          <p>this is a sample image that shows a watch</p>
+          <button class="btn" id="closebtn5">close</button>
+        </div>
+      </dialog>
+    </center>
+    <center>
+      <dialog class="modal" id="modalsix">
+        <div class="active-img">
+          <img
+            src="./images/pexels-valentin-antonucci-691640.jpg"
+            width="600px"
+            alt=""
+          />
+          <p>Title:Random Image</p>
+          <p>this is a sample image that shows a watch</p>
+          <button class="btn" id="closebtn6">close</button>
+        </div>
+      </dialog>
+    </center>
+    <script src="./app.js"></script>
+  </body>
+</html>
